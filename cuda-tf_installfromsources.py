@@ -18,7 +18,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRAR
 sudo mkdir /usr/lib/systemd/system
 
 #Copy text into file (at nvidia cuda site)
-sudo vim /usr/lib/systemd/systemystem/nvidia-persistenced.service
+sudo vim /usr/lib/systemd/system/nvidia-persistenced.service
 ########
 #[Unit] 
 #Description=NVIDIA Persistence Daemon 
