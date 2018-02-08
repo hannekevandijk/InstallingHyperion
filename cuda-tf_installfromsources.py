@@ -49,14 +49,14 @@ sudo p -r /usr/src/cudnn_samples_v7/mnistCUDNN .
 cd mnistCUDNN
 ./mnistCUDNN
 
-%%%this was the cuda installation
-%now to building tensorflow
+##this was the cuda installation
+##now to building tensorflow
 
 git clone https://github.com/tensorflow/tensorflow
 
 cd tensorflow
 
-source activate tfcuda9.1#make sure to be in this env
+source activate tfcuda9.1 #make sure to be in this env
 
 ./configure
 
@@ -146,5 +146,3 @@ tf = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 tf.list_devices()
 exit()
 ##
-#then install keras
-sudo /home/hanneke/anaconda3/envs/tfcuda9.1/bin/pip install keras
